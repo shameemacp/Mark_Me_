@@ -6,4 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".Main2Activity">
 
+    <cdflynn.android.library.checkview.CheckView
+        android:id="@+id/check"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="289dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="242dp"
+        app:checkView_strokeColor="@color/green"
+        app:checkView_strokeWidth="@dimen/check_stroke_width"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
